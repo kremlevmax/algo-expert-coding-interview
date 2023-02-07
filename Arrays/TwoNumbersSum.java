@@ -12,7 +12,11 @@ public class TwoNumbersSum {
         return new int[2];
     }
 
+    private static int[] sumSet(int[] numbers) {
+    
+    }
+
     public static void main(String[] args) {
-        System.out.println(sumNaive(new int[]{1, 2, 5, 9, 11, -3, 4}, 6)[1]);
+        System.out.println(Arrays.toString(sumNaive(new int[]{1, 2, 5, 9, 11, -3, 4}, 6)[1]));
     }
 }
